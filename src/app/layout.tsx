@@ -10,7 +10,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
   return (
     <html lang="nb">
       <head>
-        <title>Bergen Tech - Next.js Kurs</title>
+        <title> Next.js Kurs</title>
       </head>
       <body>
         <TurnOffDefaultPropsWarning />
@@ -19,8 +19,8 @@ export default function RootLayout(props: { children: React.ReactNode }) {
             <CssBaseline />
             <Header />
             {props.children}
-          </ThemeProvider>
-        </AppRouterCacheProvider>
+            </ThemeProvider>
+            </AppRouterCacheProvider>
       </body>
     </html>
   );
